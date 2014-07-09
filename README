@@ -1,0 +1,13 @@
+Version 1.0
+Author: Boskin Erkocevic
+
+Platform: Windows
+
+Description / Keypoints
+This is a prototype engine for an overhead 2D game. The room system uses dynamic memory allocation within a linked
+list data structure to handle the appearances and disappearances of objects at runtime such as bullets being fired
+and expiring.
+
+Compilation
+Compilation requires a GNU C++ compiler (g++) as well as the make build utility.
+Direct a terminal window to the directory of the makefile and type make to build the application.

@@ -1,0 +1,226 @@
+<project author="darkbull" blog="http://darkbull.net">
+  <node name="Climb" isDir="True" isExpand="True">
+    <node name="bin" isDir="True" isExpand="False">
+      <node name="allegro-4.4.2-md.dll" isDir="False" isExpand="False" />
+      <node name="libgcc_s_dw2-1.dll" isDir="False" isExpand="False" />
+      <node name="libstdc++-6.dll" isDir="False" isExpand="False" />
+      <node name="main.exe" isDir="False" isExpand="False" />
+      <node name="test.exe" isDir="False" isExpand="False" />
+    </node>
+    <node name="include" isDir="True" isExpand="False">
+      <node name="allegro" isDir="True" isExpand="False">
+        <node name="inline" isDir="True" isExpand="False">
+          <node name="3dmaths.inl" isDir="False" isExpand="False" />
+          <node name="asm.inl" isDir="False" isExpand="False" />
+          <node name="color.inl" isDir="False" isExpand="False" />
+          <node name="draw.inl" isDir="False" isExpand="False" />
+          <node name="fix.inl" isDir="False" isExpand="False" />
+          <node name="fmaths.inl" isDir="False" isExpand="False" />
+          <node name="gfx.inl" isDir="False" isExpand="False" />
+          <node name="matrix.inl" isDir="False" isExpand="False" />
+          <node name="rle.inl" isDir="False" isExpand="False" />
+          <node name="system.inl" isDir="False" isExpand="False" />
+        </node>
+        <node name="internal" isDir="True" isExpand="False">
+          <node name="aintern.h" isDir="False" isExpand="False" />
+          <node name="aintvga.h" isDir="False" isExpand="False" />
+          <node name="alconfig.h" isDir="False" isExpand="False" />
+        </node>
+        <node name="platform" isDir="True" isExpand="False">
+          <node name="aintbeos.h" isDir="False" isExpand="False" />
+          <node name="aintdos.h" isDir="False" isExpand="False" />
+          <node name="aintlnx.h" isDir="False" isExpand="False" />
+          <node name="aintmac.h" isDir="False" isExpand="False" />
+          <node name="aintosx.h" isDir="False" isExpand="False" />
+          <node name="aintpsp.h" isDir="False" isExpand="False" />
+          <node name="aintqnx.h" isDir="False" isExpand="False" />
+          <node name="aintunix.h" isDir="False" isExpand="False" />
+          <node name="aintwin.h" isDir="False" isExpand="False" />
+          <node name="al386gcc.h" isDir="False" isExpand="False" />
+          <node name="al386vc.h" isDir="False" isExpand="False" />
+          <node name="al386wat.h" isDir="False" isExpand="False" />
+          <node name="albcc32.h" isDir="False" isExpand="False" />
+          <node name="albecfg.h" isDir="False" isExpand="False" />
+          <node name="albeos.h" isDir="False" isExpand="False" />
+          <node name="aldjgpp.h" isDir="False" isExpand="False" />
+          <node name="aldmc.h" isDir="False" isExpand="False" />
+          <node name="aldos.h" isDir="False" isExpand="False" />
+          <node name="almac.h" isDir="False" isExpand="False" />
+          <node name="almaccfg.h" isDir="False" isExpand="False" />
+          <node name="almngw32.h" isDir="False" isExpand="False" />
+          <node name="almsvc.h" isDir="False" isExpand="False" />
+          <node name="alosx.h" isDir="False" isExpand="False" />
+          <node name="alosxcfg.h" isDir="False" isExpand="False" />
+          <node name="alplatf.h" isDir="False" isExpand="False" />
+          <node name="alpsp.h" isDir="False" isExpand="False" />
+          <node name="alpspcfg.h" isDir="False" isExpand="False" />
+          <node name="alqnx.h" isDir="False" isExpand="False" />
+          <node name="alqnxcfg.h" isDir="False" isExpand="False" />
+          <node name="alucfg.h" isDir="False" isExpand="False" />
+          <node name="alunix.h" isDir="False" isExpand="False" />
+          <node name="alwatcom.h" isDir="False" isExpand="False" />
+          <node name="alwin.h" isDir="False" isExpand="False" />
+          <node name="astdint.h" isDir="False" isExpand="False" />
+          <node name="macdef.h" isDir="False" isExpand="False" />
+        </node>
+        <node name="3d.h" isDir="False" isExpand="False" />
+        <node name="3dmaths.h" isDir="False" isExpand="False" />
+        <node name="alcompat.h" isDir="False" isExpand="False" />
+        <node name="alinline.h" isDir="False" isExpand="False" />
+        <node name="base.h" isDir="False" isExpand="False" />
+        <node name="color.h" isDir="False" isExpand="False" />
+        <node name="compiled.h" isDir="False" isExpand="False" />
+        <node name="config.h" isDir="False" isExpand="False" />
+        <node name="datafile.h" isDir="False" isExpand="False" />
+        <node name="debug.h" isDir="False" isExpand="False" />
+        <node name="digi.h" isDir="False" isExpand="False" />
+        <node name="draw.h" isDir="False" isExpand="False" />
+        <node name="file.h" isDir="False" isExpand="False" />
+        <node name="fix.h" isDir="False" isExpand="False" />
+        <node name="fixed.h" isDir="False" isExpand="False" />
+        <node name="fli.h" isDir="False" isExpand="False" />
+        <node name="fmaths.h" isDir="False" isExpand="False" />
+        <node name="font.h" isDir="False" isExpand="False" />
+        <node name="gfx.h" isDir="False" isExpand="False" />
+        <node name="graphics.h" isDir="False" isExpand="False" />
+        <node name="gui.h" isDir="False" isExpand="False" />
+        <node name="joystick.h" isDir="False" isExpand="False" />
+        <node name="keyboard.h" isDir="False" isExpand="False" />
+        <node name="lzss.h" isDir="False" isExpand="False" />
+        <node name="matrix.h" isDir="False" isExpand="False" />
+        <node name="midi.h" isDir="False" isExpand="False" />
+        <node name="mouse.h" isDir="False" isExpand="False" />
+        <node name="palette.h" isDir="False" isExpand="False" />
+        <node name="quat.h" isDir="False" isExpand="False" />
+        <node name="rle.h" isDir="False" isExpand="False" />
+        <node name="sound.h" isDir="False" isExpand="False" />
+        <node name="stream.h" isDir="False" isExpand="False" />
+        <node name="system.h" isDir="False" isExpand="False" />
+        <node name="text.h" isDir="False" isExpand="False" />
+        <node name="timer.h" isDir="False" isExpand="False" />
+        <node name="unicode.h" isDir="False" isExpand="False" />
+      </node>
+      <node name="allegrogl" isDir="True" isExpand="False">
+        <node name="GLext" isDir="True" isExpand="False">
+          <node name="gl_ext_alias.h" isDir="False" isExpand="False" />
+          <node name="gl_ext_api.h" isDir="False" isExpand="False" />
+          <node name="gl_ext_defs.h" isDir="False" isExpand="False" />
+          <node name="gl_ext_list.h" isDir="False" isExpand="False" />
+          <node name="wgl_ext_alias.h" isDir="False" isExpand="False" />
+          <node name="wgl_ext_api.h" isDir="False" isExpand="False" />
+          <node name="wgl_ext_defs.h" isDir="False" isExpand="False" />
+          <node name="wgl_ext_list.h" isDir="False" isExpand="False" />
+        </node>
+        <node name="gl_ext.h" isDir="False" isExpand="False" />
+        <node name="gl_header_detect.h" isDir="False" isExpand="False" />
+      </node>
+      <node name="alleggl.h" isDir="False" isExpand="False" />
+      <node name="allegro.h" isDir="False" isExpand="False" />
+      <node name="jpgalleg.h" isDir="False" isExpand="False" />
+      <node name="loadpng.h" isDir="False" isExpand="False" />
+      <node name="logg.h" isDir="False" isExpand="False" />
+      <node name="winalleg.h" isDir="False" isExpand="False" />
+    </node>
+    <node name="lib" isDir="True" isExpand="False">
+      <node name="liballegro-4.4.2-mt.a" isDir="False" isExpand="False" />
+    </node>
+    <node name="obj" isDir="True" isExpand="False">
+      <node name="block.o" isDir="False" isExpand="False" />
+      <node name="blockCollisionEvent.o" isDir="False" isExpand="False" />
+      <node name="bullet.o" isDir="False" isExpand="False" />
+      <node name="collisionBox.o" isDir="False" isExpand="False" />
+      <node name="collisionEvent.o" isDir="False" isExpand="False" />
+      <node name="event.o" isDir="False" isExpand="False" />
+      <node name="labyrinth.o" isDir="False" isExpand="False" />
+      <node name="main.o" isDir="False" isExpand="False" />
+      <node name="object.o" isDir="False" isExpand="False" />
+      <node name="player.o" isDir="False" isExpand="False" />
+      <node name="room.o" isDir="False" isExpand="False" />
+      <node name="screen.o" isDir="False" isExpand="False" />
+      <node name="vector.o" isDir="False" isExpand="False" />
+      <node name="weapon.o" isDir="False" isExpand="False" />
+    </node>
+    <node name="src" isDir="True" isExpand="True">
+      <node name="Entities" isDir="True" isExpand="False">
+        <node name="Bullet" isDir="True" isExpand="False">
+          <node name="bullet.cpp" isDir="False" isExpand="False" />
+          <node name="bullet.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="Human" isDir="True" isExpand="False">
+          <node name="human.cpp" isDir="False" isExpand="False" />
+          <node name="human.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="Object" isDir="True" isExpand="False">
+          <node name="object.cpp" isDir="False" isExpand="False" />
+          <node name="object.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="Player" isDir="True" isExpand="False">
+          <node name="player.cpp" isDir="False" isExpand="False" />
+          <node name="player.hpp" isDir="False" isExpand="False" />
+        </node>
+      </node>
+      <node name="Events" isDir="True" isExpand="False">
+        <node name="BlockCollisionEvent" isDir="True" isExpand="False">
+          <node name="blockCollisionEvent.cpp" isDir="False" isExpand="False" />
+          <node name="blockCollisionEvent.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="BulletCollisionEvent" isDir="True" isExpand="False">
+          <node name="bulletCollisionEvent.cpp" isDir="False" isExpand="False" />
+          <node name="bulletCollisionEvent.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="CollisionEvent" isDir="True" isExpand="False">
+          <node name="collisionEvent.cpp" isDir="False" isExpand="False" />
+          <node name="collisionEvent.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="Event" isDir="True" isExpand="False">
+          <node name="event.cpp" isDir="False" isExpand="False" />
+          <node name="event.hpp" isDir="False" isExpand="False" />
+        </node>
+      </node>
+      <node name="Items" isDir="True" isExpand="False">
+        <node name="Weapon" isDir="True" isExpand="False">
+          <node name="weapon.cpp" isDir="False" isExpand="False" />
+          <node name="weapon.hpp" isDir="False" isExpand="False" />
+        </node>
+      </node>
+      <node name="Structures" isDir="True" isExpand="True">
+        <node name="Block" isDir="True" isExpand="False">
+          <node name="block.cpp" isDir="False" isExpand="False" />
+          <node name="block.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="Labyrinth" isDir="True" isExpand="False">
+          <node name="labyrinth.cpp" isDir="False" isExpand="False" />
+          <node name="labyrinth.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="Room" isDir="True" isExpand="True">
+          <node name="room.cpp" isDir="False" isExpand="False" />
+          <node name="room.hpp" isDir="False" isExpand="False" />
+        </node>
+      </node>
+      <node name="Utils" isDir="True" isExpand="False">
+        <node name="CollisionBox" isDir="True" isExpand="False">
+          <node name="collisionBox.cpp" isDir="False" isExpand="False" />
+          <node name="collisionBox.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="List" isDir="True" isExpand="False">
+          <node name="list.cxx" isDir="False" isExpand="False" />
+          <node name="list.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="Screen" isDir="True" isExpand="False">
+          <node name="screen.cpp" isDir="False" isExpand="False" />
+          <node name="screen.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="Vector" isDir="True" isExpand="False">
+          <node name="vector.cpp" isDir="False" isExpand="False" />
+          <node name="vector.hpp" isDir="False" isExpand="False" />
+        </node>
+      </node>
+      <node name="main.cpp" isDir="False" isExpand="False" />
+      <node name="test.cpp" isDir="False" isExpand="False" />
+    </node>
+    <node name="Climb" isDir="False" isExpand="False" />
+    <node name="Climb.geany" isDir="False" isExpand="False" />
+    <node name="makefile" isDir="False" isExpand="False" />
+    <node name="README" isDir="False" isExpand="False" />
+  </node>
+</project>
