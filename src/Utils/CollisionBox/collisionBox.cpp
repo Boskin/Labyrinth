@@ -8,7 +8,6 @@
 using Entities::Object;
 
 namespace Utils {
-    
     CollisionBox::CollisionBox(double& _x, double& _y,
                    int _lengthX, int _lengthY,
                    double _xOffset, double _yOffset):
@@ -52,5 +51,4 @@ namespace Utils {
                  getX() + lengthX, getY() + lengthY,
                  color);
     }
-    
 }

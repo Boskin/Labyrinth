@@ -1,5 +1,5 @@
 <project author="darkbull" blog="http://darkbull.net">
-  <node name="Climb" isDir="True" isExpand="True">
+  <node name="Labyrinth" isDir="True" isExpand="True">
     <node name="bin" isDir="True" isExpand="False">
       <node name="allegro-4.4.2-md.dll" isDir="False" isExpand="False" />
       <node name="libgcc_s_dw2-1.dll" isDir="False" isExpand="False" />
@@ -142,9 +142,17 @@
     </node>
     <node name="src" isDir="True" isExpand="True">
       <node name="Entities" isDir="True" isExpand="False">
+        <node name="Block" isDir="True" isExpand="False">
+          <node name="block.cpp" isDir="False" isExpand="False" />
+          <node name="block.hpp" isDir="False" isExpand="False" />
+        </node>
         <node name="Bullet" isDir="True" isExpand="False">
           <node name="bullet.cpp" isDir="False" isExpand="False" />
           <node name="bullet.hpp" isDir="False" isExpand="False" />
+        </node>
+        <node name="Enemy" isDir="True" isExpand="False">
+          <node name="enemy.cpp" isDir="False" isExpand="False" />
+          <node name="enemy.hpp" isDir="False" isExpand="False" />
         </node>
         <node name="Human" isDir="True" isExpand="False">
           <node name="human.cpp" isDir="False" isExpand="False" />
@@ -183,16 +191,12 @@
           <node name="weapon.hpp" isDir="False" isExpand="False" />
         </node>
       </node>
-      <node name="Structures" isDir="True" isExpand="True">
-        <node name="Block" isDir="True" isExpand="False">
-          <node name="block.cpp" isDir="False" isExpand="False" />
-          <node name="block.hpp" isDir="False" isExpand="False" />
-        </node>
+      <node name="Structures" isDir="True" isExpand="False">
         <node name="Labyrinth" isDir="True" isExpand="False">
           <node name="labyrinth.cpp" isDir="False" isExpand="False" />
           <node name="labyrinth.hpp" isDir="False" isExpand="False" />
         </node>
-        <node name="Room" isDir="True" isExpand="True">
+        <node name="Room" isDir="True" isExpand="False">
           <node name="room.cpp" isDir="False" isExpand="False" />
           <node name="room.hpp" isDir="False" isExpand="False" />
         </node>

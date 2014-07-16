@@ -6,7 +6,7 @@
 #include "collisionBox.hpp"
 #include "vector.hpp"
 
-using Structures::Block;
+using Entities::Block;
 using Entities::Object;
 
 using Utils::CollisionBox;

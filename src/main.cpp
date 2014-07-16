@@ -10,18 +10,17 @@
 #include "vector.hpp"
 #include "weapon.hpp"
 
+using Entities::Block;
 using Entities::Human;
 
 using Items::Weapon;
 
-using Structures::Block;
 using Structures::Labyrinth;
 
 using Utils::Screen;
 using Utils::Vector;
 
 bool exitProgram = false;
-int MIN_TIME = 10;
 
 // Thread used to run a timer in milliseconds, coolDown is an integer that counts down to 0
 void coolDownThread(void* coolDown);
@@ -75,7 +74,7 @@ int main() {
 END_OF_MAIN()
 
 void coolDownThread(void* coolDown) {
-    int* coolDownTimer = (int*)coolDown;
+    int* coolDownTimer = reinterpret_cast<int*>(coolDown);
     rest(*coolDownTimer);
     *coolDownTimer = 0;
     _endthread();

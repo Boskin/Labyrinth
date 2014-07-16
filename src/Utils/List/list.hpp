@@ -63,7 +63,7 @@ template <class Type> class Iterator {
     void next(); // Moves to the next node in the list
     void prev(); // Moves to the previous node in the list
     
-    bool valid(); // Checks to see if it is pointing to a valid 
+    bool valid(); // Checks to see if it is pointing to a valid node
     
     // Overloaded operators
     Iterator<Type>& operator =(Iterator<Type> other); // Assignment overload

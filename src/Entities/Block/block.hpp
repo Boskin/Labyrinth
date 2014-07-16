@@ -3,9 +3,7 @@
 
 #include "object.hpp"
 
-using Entities::Object;
-
-namespace Structures {
+namespace Entities {
 
     class Block : public Object {
         public:

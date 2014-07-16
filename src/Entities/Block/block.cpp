@@ -8,7 +8,7 @@
 using Utils::Screen;
 using Events::BlockCollisionEvent;
 
-namespace Structures {
+namespace Entities {
 	
     // Intializes the standard block dimensions
 	int Block::LENGTH_X = 20;
