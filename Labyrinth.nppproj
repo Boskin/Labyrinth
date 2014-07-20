@@ -1,7 +1,7 @@
 <project author="darkbull" blog="http://darkbull.net">
   <node name="Labyrinth" isDir="True" isExpand="True">
     <node name="bin" isDir="True" isExpand="False">
-      <node name="allegro-4.4.2-md.dll" isDir="False" isExpand="False" />
+      <node name="allegro-4.4.2-mt.dll" isDir="False" isExpand="False" />
       <node name="libgcc_s_dw2-1.dll" isDir="False" isExpand="False" />
       <node name="libstdc++-6.dll" isDir="False" isExpand="False" />
       <node name="main.exe" isDir="False" isExpand="False" />

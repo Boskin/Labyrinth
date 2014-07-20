@@ -1,4 +1,3 @@
-#include <allegro.h>
 #include "labyrinth.hpp"
 #include "room.hpp"
 #include "object.hpp"

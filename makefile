@@ -2,12 +2,12 @@ CC := g++
 
 BIN := bin
 INC := -I./include
-LIB := -L./lib
+LIB := lib
 OBJ := obj
 SRC := src
 
 INCLUDE := $(addprefix -I./,$(wildcard $(SRC)/*/*)) 
-LIBRARIES := $(LIB) -lallegro-4.4.2-mt
+LIBRARIES := $(wildcard $(LIB)/*.a)
 OBJECTS := $(addprefix $(OBJ)/,$(addsuffix .o,$(basename $(notdir $(wildcard $(SRC)/*/*/*.cpp)))))
 
 all: $(BIN)/main.exe
